@@ -2,10 +2,10 @@
 领域: 3D 视觉 / 点云场景理解
 发表时间: 2026-04-21 (v1)；2026-08-25 (v2)
 读文章时间: 2026-08-27
-标题: Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding
+标题: "Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding"
 链接: https://arxiv.org/abs/2604.19609
 Zotero: 未入库（本机 Zotero 9.0.6 不支持 Local API 写入，需 Zotero 10+）
-页码为 PDF 物理页码
+页码说明: PDF 物理页码
 ---
 
 # Volume Transformer: Revisiting Vanilla Transformers for 3D Scene Understanding

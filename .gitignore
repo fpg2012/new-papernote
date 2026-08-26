@@ -9,3 +9,7 @@
 
 !hooks.py
 !docs/
+!docs/javascripts/
+!docs/javascripts/**
+!docs/stylesheets/
+!docs/stylesheets/**

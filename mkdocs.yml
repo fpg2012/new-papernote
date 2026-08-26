@@ -31,11 +31,25 @@ theme:
         icon: material/weather-sunny
         name: 切换到浅色模式
 
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
 plugins:
   - search
 
 hooks:
   - hooks.py
+
+# KaTeX（CDN）+ 自定义样式
+extra_css:
+  - https://unpkg.com/katex@0.16.47/dist/katex.min.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0.16.47/dist/katex.min.js
+  - https://unpkg.com/katex@0.16.47/dist/contrib/auto-render.min.js
 
 extra:
   generator: false

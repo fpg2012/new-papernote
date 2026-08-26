@@ -5,7 +5,7 @@
 标题: CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting
 链接: https://arxiv.org/abs/2608.11150
 Zotero: 已入库 [zotero://select/library/items/VK2PSG2X](zotero://select/library/items/VK2PSG2X)
-页码为 PDF 页码
+页码说明: PDF 页码
 ---
 
 # CausalSplat: 面向 3DGS 的层次化推理分割
