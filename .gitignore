@@ -1,4 +1,11 @@
-# 只跟踪 md 文件，其余文件一律忽略
+# 只跟踪 md 文件与 CI/构建配置，其余文件一律忽略
 *
 !*.md
 !.gitignore
+!.github/
+!.github/**
+!mkdocs.yml
+!requirements.txt
+
+!hooks.py
+!docs/

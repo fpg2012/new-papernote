@@ -1,0 +1,41 @@
+site_name: 论文笔记
+site_description: 论文阅读笔记（Markdown 自动构建为 HTML）
+site_author: nth233
+# 推送远程仓库后，可在这里填仓库地址以显示编辑链接
+# repo_url: https://github.com/<your-name>/paper-notes
+
+docs_dir: "docs"
+site_dir: "site"
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+plugins:
+  - search
+
+hooks:
+  - hooks.py
+
+extra:
+  generator: false
