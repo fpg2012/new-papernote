@@ -80,7 +80,9 @@ def _build_index_table(docs_dir):
                 "file": os.path.basename(path),
             }
         )
-    rows.sort(key=lambda r: r["date"], reverse=True)
+    # 按生成日期（读文章时间）倒序；同日内的按文件名保持稳定顺序
+    rows.sort(key=lambda r: r["file"])
+    rows.sort(key=lambda r: r["read"], reverse=True)
 
     lines = ["| 标题 | 生成日期 | 文章日期 | arXiv |", "| --- | --- | --- | --- |"]
     for r in rows:
