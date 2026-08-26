@@ -1,11 +1,11 @@
 ---
-领域: 3D 重建 / 神经渲染（3DGS 场景理解与推理分割）
-发表时间: 2026-08-11（arXiv v2）
-读文章时间: 2026-08-15
-标题: CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting
-链接: https://arxiv.org/abs/2608.11150
-Zotero: 已入库 [zotero://select/library/items/VK2PSG2X](zotero://select/library/items/VK2PSG2X)
-页码说明: PDF 页码
+领域: "3D 重建 / 神经渲染（3DGS 场景理解与推理分割）"
+发表时间: "2026-08-11（arXiv v2）"
+读文章时间: "2026-08-15"
+标题: "CausalSplat: Towards Comprehensive Hierarchical Reasoning in 3D Gaussian Splatting"
+链接: "https://arxiv.org/abs/2608.11150"
+Zotero: "已入库 [zotero://select/library/items/VK2PSG2X](zotero://select/library/items/VK2PSG2X)"
+页码说明: "PDF 页码"
 ---
 
 # CausalSplat: 面向 3DGS 的层次化推理分割

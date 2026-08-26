@@ -1,11 +1,11 @@
 ---
-领域: 计算机视觉 / RGB-D 语义分割（SAM 应用）
-发表时间: 2023-05-23（arXiv v1）
-读文章时间: 2026-08-23
-标题: SAD: Segment Any RGBD
-链接: https://arxiv.org/abs/2305.14207
-Zotero: 已入库（key: BE5HPRU9）
-页码说明: 印刷页码 = PDF 物理页码（正文 1–5）
+领域: "计算机视觉 / RGB-D 语义分割（SAM 应用）"
+发表时间: "2023-05-23（arXiv v1）"
+读文章时间: "2026-08-23"
+标题: "SAD: Segment Any RGBD"
+链接: "https://arxiv.org/abs/2305.14207"
+Zotero: "已入库（key: BE5HPRU9）"
+页码说明: "印刷页码 = PDF 物理页码（正文 1–5）"
 ---
 
 # SAD: Segment Any RGBD

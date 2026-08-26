@@ -1,11 +1,11 @@
 ---
-领域: 3D 重建 / 神经渲染（稀疏视角 3DGS 恢复）
-发表时间: 2026-08-10（arXiv v1）
-读文章时间: 2026-08-15
-标题: TRACE-GS: On-Policy Trajectory Distillation with Privileged Geometric Conditioning for Sparse-View 3DGS Restoration
-链接: https://arxiv.org/abs/2608.10286
-Zotero: 已入库 [zotero://select/library/items/CH7DF6JB](zotero://select/library/items/CH7DF6JB)
-页码说明: PDF 页码
+领域: "3D 重建 / 神经渲染（稀疏视角 3DGS 恢复）"
+发表时间: "2026-08-10（arXiv v1）"
+读文章时间: "2026-08-15"
+标题: "TRACE-GS: On-Policy Trajectory Distillation with Privileged Geometric Conditioning for Sparse-View 3DGS Restoration"
+链接: "https://arxiv.org/abs/2608.10286"
+Zotero: "已入库 [zotero://select/library/items/CH7DF6JB](zotero://select/library/items/CH7DF6JB)"
+页码说明: "PDF 页码"
 ---
 
 # TRACE-GS: 用特权几何条件做 on-policy 轨迹蒸馏，恢复稀疏视角 3DGS

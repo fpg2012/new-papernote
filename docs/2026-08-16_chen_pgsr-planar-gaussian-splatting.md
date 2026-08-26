@@ -1,11 +1,11 @@
 ---
-领域: 3D 重建 / 神经渲染
-发表时间: arXiv v1 2024-06-10（v2 2025-01-10）；正式发表于 IEEE TVCG（DOI: 10.1109/TVCG.2024.3494046）
-读文章时间: 2026-08-16
-标题: PGSR: Planar-based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction
-链接: https://arxiv.org/abs/2406.06521
-Zotero: 已入库（key: NH5NA2VJ）
-页码说明: PDF 物理页码（正文部分与印刷页码一致；补充材料无印刷页码，用 PDF 物理页码 13-20）
+领域: "3D 重建 / 神经渲染"
+发表时间: "arXiv v1 2024-06-10（v2 2025-01-10）；正式发表于 IEEE TVCG（DOI: 10.1109/TVCG.2024.3494046）"
+读文章时间: "2026-08-16"
+标题: "PGSR: Planar-based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction"
+链接: "https://arxiv.org/abs/2406.06521"
+Zotero: "已入库（key: NH5NA2VJ）"
+页码说明: "PDF 物理页码（正文部分与印刷页码一致；补充材料无印刷页码，用 PDF 物理页码 13-20）"
 ---
 
 # PGSR: Planar-based Gaussian Splatting for Efficient and High-Fidelity Surface Reconstruction

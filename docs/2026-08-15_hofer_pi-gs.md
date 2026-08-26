@@ -1,11 +1,11 @@
 ---
-领域: 3D 重建 / 神经渲染（稀疏视角 Gaussian Splatting）
-发表时间: 2026-02-03（arXiv v1）
-读文章时间: 2026-08-15
-标题: Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization
-链接: https://arxiv.org/abs/2602.03327
-Zotero: 已入库（arXiv:2602.03327 [cs.GR]，2026-02-03 入库）
-页码说明: 正文无印刷页码的首页按 PDF 物理页 1 计；其余页印刷页码与 PDF 物理页码一致
+领域: "3D 重建 / 神经渲染（稀疏视角 Gaussian Splatting）"
+发表时间: "2026-02-03（arXiv v1）"
+读文章时间: "2026-08-15"
+标题: "Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization"
+链接: "https://arxiv.org/abs/2602.03327"
+Zotero: "已入库（arXiv:2602.03327 [cs.GR]，2026-02-03 入库）"
+页码说明: "正文无印刷页码的首页按 PDF 物理页 1 计；其余页印刷页码与 PDF 物理页码一致"
 ---
 
 # Pi-GS: Sparse-View Gaussian Splatting with Dense π^3 Initialization

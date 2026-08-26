@@ -1,11 +1,11 @@
 ---
-领域: 计算机视觉 / 实例分割
-发表时间: 2026-08-13（arXiv v1）
-读文章时间: 2026-08-15
-标题: Predicting Signed Distance Functions for Visual Instance Segmentation
-链接: https://arxiv.org/abs/2608.13135
-Zotero: 已入库 [zotero://select/library/items/UVZCJFPG](zotero://select/library/items/UVZCJFPG)
-页码说明: PDF 页码
+领域: "计算机视觉 / 实例分割"
+发表时间: "2026-08-13（arXiv v1）"
+读文章时间: "2026-08-15"
+标题: "Predicting Signed Distance Functions for Visual Instance Segmentation"
+链接: "https://arxiv.org/abs/2608.13135"
+Zotero: "已入库 [zotero://select/library/items/UVZCJFPG](zotero://select/library/items/UVZCJFPG)"
+页码说明: "PDF 页码"
 ---
 
 # 预测符号距离函数做视觉实例分割

@@ -1,11 +1,11 @@
 ---
-领域: 计算机视觉 / 多视图可提示分割（3D 感知）
-发表时间: 2026-01-25（arXiv v1）
-读文章时间: 2026-08-23
-标题: MV-SAM: Multi-view Promptable Segmentation using Pointmap Guidance
-链接: https://arxiv.org/abs/2601.17866
-Zotero: 已入库（key: 5R3MFDVL）
-页码说明: 正文页码为印刷页码，与 PDF 物理页码一致（正文 1–24，参考文献 24–28）
+领域: "计算机视觉 / 多视图可提示分割（3D 感知）"
+发表时间: "2026-01-25（arXiv v1）"
+读文章时间: "2026-08-23"
+标题: "MV-SAM: Multi-view Promptable Segmentation using Pointmap Guidance"
+链接: "https://arxiv.org/abs/2601.17866"
+Zotero: "已入库（key: 5R3MFDVL）"
+页码说明: "正文页码为印刷页码，与 PDF 物理页码一致（正文 1–24，参考文献 24–28）"
 ---
 
 # MV-SAM: Multi-view Promptable Segmentation using Pointmap Guidance

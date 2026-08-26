@@ -1,11 +1,11 @@
 ---
-领域: 3D 重建 / 神经渲染（3DGS 分割）
-发表时间: 2026-08-12（arXiv v1）
-读文章时间: 2026-08-15
-标题: Seed2GS: Camera-Free, Training-Free Object Extraction from 3D Gaussian Scenes via a Single Reference-View Grounding
-链接: https://arxiv.org/abs/2608.11928
-Zotero: 已入库 [zotero://select/library/items/QYH66LJX](zotero://select/library/items/QYH66LJX)
-页码说明: PDF 页码
+领域: "3D 重建 / 神经渲染（3DGS 分割）"
+发表时间: "2026-08-12（arXiv v1）"
+读文章时间: "2026-08-15"
+标题: "Seed2GS: Camera-Free, Training-Free Object Extraction from 3D Gaussian Scenes via a Single Reference-View Grounding"
+链接: "https://arxiv.org/abs/2608.11928"
+Zotero: "已入库 [zotero://select/library/items/QYH66LJX](zotero://select/library/items/QYH66LJX)"
+页码说明: "PDF 页码"
 ---
 
 # Seed2GS: 免相机、免训练地从 3DGS 场景中提取目标物体
