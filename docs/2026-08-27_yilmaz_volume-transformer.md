@@ -70,6 +70,7 @@ $$
 $$
 
 符号说明：
+
 - $\mathbf{q},\mathbf{k}\in\mathbb{R}^{D_h}$：某 token 在位置 $\mathbf{p}=(p_x,p_y,p_z)$ 的单头 query/key 向量；
 - $\mathbf{q}_x,\mathbf{q}_y,\mathbf{q}_z$（$\mathbf{k}$ 同理）：按轴切分的子向量，维度分别为 $12,12,8$（**非对称**分配：水平面 x/y 给更多容量，重力对齐的 z 轴变化少，给 8）；
 - $\mathcal{R}_{\Theta}(\cdot)$：标准分块对角旋转变换 [6]，由频率 $\Theta$ 参数化；
@@ -94,6 +95,7 @@ $$
 $$
 
 符号说明：
+
 - $\mathbf{W}_{\mathrm{seg}},\mathbf{W}_{\mathrm{distill}}$：两个并列线性分类头的权重（分割头 + 蒸馏头）；
 - $y_{\mathrm{gt}}$：真实标签；$y_{\mathrm{teacher}}$：teacher 的硬预测；
 - $\mathcal{L}_{\mathrm{seg}}$：交叉熵 + Lovász 损失（语义分割）。
@@ -138,6 +140,7 @@ $$
 ### 5.5 室内实例分割（Table 3，P.11）
 
 把 SPFormer 的 MinkUNet backbone 换成 Volt（decoder/损失不动，纯换 backbone 的受控对比）：
+
 - **Volt-S 让 ScanNet200 val 直接 +14.6 mAP50**（33.8→48.4），SOTA。
 - Volt-B：ScanNet test 82.7、ScanNet200 test 47.5、ScanNet++ test 54.9，全部新纪录。
 - 结论：**只加强底层 3D 表征，收益比设计更花哨的 decoder（OneFormer3D、Relation3D 等）还大**。
@@ -173,21 +176,25 @@ $$
 ## 7. 快速总结
 
 **核心贡献：**
+
 1. Volt：3D 场景理解第一个**纯 vanilla Transformer backbone**——体素块 token + 全全局注意力 + 3D RoPE，可纯 PyTorch 实现、直接吃 FlashAttention 等生态红利（P.4-6）。
 2. 数据高效训练配方（强增强 + DropPath/标签平滑 + 卷积 teacher 蒸馏）解决了少数据下的过拟合，同一配方让 Volt 从 naive 31.0 提到 36.2 mIoU（P.7）。
 3. 证明**少归纳偏置架构的缩放优势**：多数据集联合训练下 Volt 受益远大于 PTv3（+9.0 vs +2.3），多基准刷新 SOTA，且效率更高（Volt-B 比 PTv3-S 快 2×、省 38% 内存）（P.2、P.8）。
 
 **主要局限/观察：**
+
 - 当前 3D 数据规模仍是瓶颈：训练配方让 Volt-S 在大数据下开始"容量饱和"（38.1 → 需要 Volt-B 才能继续涨），说明 3D 需要更大监督（P.8）。
 - 蒸馏依赖一个卷积 teacher；teacher 比 student 弱但仍有帮助，机制层面（到底注入了什么归纳偏置）没展开分析。
 - 重 decoder 反而掉点、3³ patch 精度更高但慢——精度-速度权衡仍需按任务取舍。
 
 **值得借鉴/延伸：**
+
 - "从架构搬 2D 范式，用训练配方补数据"的思路可以直接迁移到 3D 检测、occupancy 预测等任务。
 - 3D RoPE 的非对称轴向分配（x/y 12、z 8）+ 离散索引位置的度量一致性设计很干净，可复用到其他 3D Transformer。
 - 联合多数据集 + per-dataset head 是低成本扩监督的好模板；ARKit LabelMaker 这种"弱标注大规模数据"的价值被明确量化。
 
 **开源情况：**
+
 - 代码（MIT）：https://github.com/YilmazKadir/Volt —— 官方实现，基于 Pointcept，纯 PyTorch（2026-06 起无 spconv 依赖），预处理脚本覆盖 ScanNet/ScanNet200/ScanNet++/SceneFun3D/nuScenes/SemanticKITTI/Waymo。
 - 权重：https://huggingface.co/KadirYilmaz/Volt —— teacher weights 与 checkpoints（`hf download KadirYilmaz/Volt --include "teacher_weights/*.pth"`）。
 - 项目页：https://yilmazkadir.github.io/Volt/ ；ECCV 2026，另获 3 个 CVPR 2026 challenge 优胜（ScanNet++ 语义/实例、SceneFun3D 功能分割）。

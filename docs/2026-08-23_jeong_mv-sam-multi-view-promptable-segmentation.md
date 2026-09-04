@@ -102,6 +102,7 @@ Zotero: "已入库（key: 5R3MFDVL）"
   $$
   \hat{M}_i = \operatorname{Decoder}(\hat{F}_i^{\mathcal{P}},\; \hat{\mathcal{S}}^{\mathrm{PE}})
   $$
+
 - 为什么单视图而不是全视图注意力（所有帧拼起来注意）？全视图的 token 数随帧数线性增长（$n\_views \times h \times w$），推理帧数一变就要做 token 长度外推，帧一多就崩；单视图的 token 结构恒定（附录表 12：100 帧时单视图 52.2 vs 全视图 45.8；图 5 曲线）。训练时两者用 8 帧都差不多，但全视图推理时扩展性差 (P.9-10)。
 - **帧序置换等变**：因为 π³ 是置换等变的，整个 MV-SAM 对输入帧顺序不敏感，随机打乱帧序性能不变 (P.6)。
 

@@ -107,6 +107,7 @@ $N$ 为像素数，$N_i^{t}$ 为第 $i$ 像素真值法线（由 $\pi^{3}$ 深�
 ## 5. 实验
 
 **实验设置**：四个基准数据集，全部 3-view（MipNeRF360 另有 12-view 设置）。指标 PSNR↑ / SSIM↑ / LPIPS↓。
+
 - **Tanks and Temples**：8 个真实室内外场景子集（同 Intern-GS/InstantSplat），测试集 12 张均匀采样（去首尾帧），其余为训练集再均匀抽 3 视图，不降采样。
 - **MipNeRF360**：3-view 设置（同 Gaussian Scenes，9 场景全用）和 12-view 设置（同 SparseGS，只用其中 6 个场景），都用 4x 降采样。
 - **LLFF**：同 DNGaussian 的 3-view 划分，8x 降采样。
