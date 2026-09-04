@@ -1,0 +1,256 @@
+RSS Feeds - arXiv info
+| arXiv e-print repository
+Skip to content
+arXiv is now an independent nonprofit!
+Learn more
+×
+arXiv info
+arXiv info
+RSS Feeds
+Initializing search
+GitHub
+arXiv info
+GitHub
+Home
+About
+About
+Who we are
+Governance
+Governance
+Board of Directors
+Operational Guidelines
+arXiv Advisory Board
+Science Advisory Council
+Editorial Advisory Council
+Institutions Advisory Council
+Membership
+Funding
+Reports
+Accessibility
+arXiv Blog
+Help
+Help
+Submit an Article
+Submit an Article
+Submit TeX/LaTeX
+Submit a PDF
+Legacy Submission System
+FAQ
+FAQ
+LaTeX2e class for Astronomy & Astrophysics
+AMS LaTeX packages and AMS Journal styles
+Downloaded .gz Files that are not Gzipped
+Why do my citations appear in long form
+Examples of TeX Double Subscripts
+Papersize/Layout Problems: Margins are Different and/or Text is Truncated
+Using Feynmf on arXiv
+Truetype and Opentype fonts available at arXiv's TeX Live 2025
+Proprietary fonts and/or their free equivalents
+How to Prepare Pages for Landscape Printout
+Common Mistakes that cause Automated Processing to Fail
+Why do my user defined symbols display incorrectly
+Why are some pages in the generated PDF file rotated?
+Why are there Problems with my PostScript File?
+Why is my PostScript File so Large?
+Using PSTricks on arXiv
+References to and in arXiv Documents
+Status of REVTeX 4 and REVTeX 4.1 support
+Nota Bene (updated 30 Jun '97)
+Frequently Asked Questions on Public Statistics
+TeX Live at arXiv
+Why doesn't my processed TeX submission look the way I expected it?
+Textures
+Why Does My Paper Give the Wrong Date?
+Why doesn't my paper have the arXiv id stamped on the side of the page?
+Status Information
+Ancillary Files (data, code, images)
+Availability of submissions
+Category cross listing
+Endorsement
+Adding Journal Reference and DOI
+Licenses
+Text Overlap
+Metadata for Required and Optional Fields
+Submit a new version of a work
+Oversized Submissions
+Submit a Paper List for Conference Proceedings
+Creating tar and zip Files for Upload
+What is TeX
+Proxy / Third Party Submission
+Translations
+Version Availability
+Why Submit TeX?
+Withdraw / Retract a Submission
+Find and Read Articles
+Find and Read Articles
+Search for articles
+Viewing submissions
+Email subscriptions for new papers
+arXiv Identifier
+Configuring your browser
+RSS Feeds
+RSS Feeds
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+-->
+Table of contents
+RSS news feeds
+Feed specifications and status
+Subscribe by category
+Subscribe by individual subject class
+Subscribe by multiple categories
+Licenses
+Permissions and Reuse
+What is MathJax?
+Accounts
+Accounts
+Directions for Author Registration
+Author Identifiers
+ORCID identifiers
+Authority Records
+Why isn't a Person "Registered as an Author?"
+Bulk Access to Metadata and Full Text
+Bulk Access to Metadata and Full Text
+arXiv Identifier for Interacting Services
+Full Text via S3
+API for Metadata
+RSS Feeds
+RSS Feeds
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+-->
+Table of contents
+RSS news feeds
+Feed specifications and status
+Subscribe by category
+Subscribe by individual subject class
+Subscribe by multiple categories
+Institutional Repository Interoperability
+Automated DOI and journal reference updates from publishers
+Brand
+Brand
+Name and logo use
+Brand Pillars
+Colors
+Fonts
+Logos
+Quotes
+Branded Merchandise
+Tagline
+The arXiv Voice
+Labs
+Labs
+arXivLabs: Showcase
+Policies
+Policies
+Code of conduct
+Privacy policy
+Identity, affiliation, and registration
+Submittal agreement
+Authority Records
+Submission Overview
+Availability of submissions
+Content Moderation
+Licenses
+Withdraw / Retract a Submission
+Category cross listing
+Translations
+Non-English submissions
+Text Overlap
+Why Submit TeX?
+Proxy / Third Party Submission
+Copyright Infringement
+Categories
+arXiv Usage Stats
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+-->
+Table of contents
+RSS news feeds
+Feed specifications and status
+Subscribe by category
+Subscribe by individual subject class
+Subscribe by multiple categories
+Home
+Help
+Bulk Access to Metadata and Full Text
+RSS news feeds
+RSS 2.0 and ATOM news feed pages are available for all active subject areas within arXiv. Feeds are updated daily at midnight Eastern Standard Time.
+Feed specifications and status
+RSS feed specifications
+ATOM feed specifications
+arXiv feed status page
+Subscribe by category
+The URL for each category (whole archive or subject class) is constructed by appending the category name to https://rss.arxiv.org/rss/ or https://rss.arxiv.org/atom/ . For example, the following URLs are for the RSS and ATOM pages for the Computer Science archive:
+RSS: https://rss.arxiv.org/rss/cs
+ATOM: https://rss.arxiv.org/atom/cs
+Subscribe by individual subject class
+News feeds are available for individual subject classes of archives that have subject classes. A specific subject class is selected by appending a period (.) and the subject class letters to the URL. For example, the following URLs are for the RSS and ATOM pages for Mathematics -- Quantum Algebra:
+RSS: https://rss.arxiv.org/rss/math.QA
+ATOM: https://rss.arxiv.org/atom/math.QA
+Subscribe by multiple categories
+Request multiple categories by appending a plus sign and another category to your end of your URL. Limit 2000 results.
+For example, the following URLs are for the RSS and ATOM pages for Computer Science -- AI and Quantitative Biology -- Neurons and Cognition:
+RSS: https://rss.arxiv.org/rss/cs.ai+q-bio.NC
+ATOM: https://rss.arxiv.org/atom/cs.ai+q-bio.NC
+Please review the Terms of Use for arXiv APIs before using the arXiv RSS feeds.
+Looking for search results in an RSS-like format? See the arXiv search API for more information and usage instructions.
+For information regarding our January 2024 RSS update, please read our blog post .
+We gratefully acknowledge support from our major funders ,
+member institutions , ,
+and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status (opens in new tab)
+Major funding support from

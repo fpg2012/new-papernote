@@ -13,3 +13,14 @@
 !docs/javascripts/**
 !docs/stylesheets/
 !docs/stylesheets/**
+
+# 技能（随仓库管理，便于其他机器直接拉取使用）——取消忽略整棵 skills 树，再按类型放开文件
+!.agents/
+!.agents/skills/
+!.agents/skills/**/
+!.agents/skills/**/*.md
+!.agents/skills/**/*.py
+!.agents/skills/**/*.sh
+!.agents/skills/**/*.txt
+!.agents/skills/**/.env.example
+# 仍忽略：密钥与缓存（.env / __pycache__ / .cache 保持被最上层的 * 忽略）
