@@ -1,12 +1,12 @@
 ---
 arXiv分类: "cs.CV"
-领域: 3D 重建 / 神经渲染（3D Gaussian Splatting 场景编辑）
-发表时间: 2026-08-27 (arXiv v1)
-读文章时间: 2026-08-30
-标题: CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes
-链接: https://arxiv.org/abs/2608.26656
-Zotero: 已入库
-页码说明: 页码为 PDF 印刷页码（IEEE 格式，首页即 P.1）
+领域: "3D 重建 / 神经渲染（3D Gaussian Splatting 场景编辑）"
+发表时间: "2026-08-27 (arXiv v1)"
+读文章时间: "2026-08-30"
+标题: "CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes"
+链接: "https://arxiv.org/abs/2608.26656"
+Zotero: "已入库"
+页码说明: "页码为 PDF 印刷页码（IEEE 格式，首页即 P.1）"
 ---
 
 # CoGeo-GS: Concept-Driven and Geometry-Aware Multi-Object Removal in 3D Scenes

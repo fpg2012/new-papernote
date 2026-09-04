@@ -1,6 +1,6 @@
 """MkDocs hooks：
 1. 页面标题取正文第一个 H1（front matter 无标准 title 字段时）；
-2. 将 front matter 中的论文元信息（领域/发表时间/链接等）注入为页面顶部美观的信息条；
+2. 将 front matter 中的论文元信息（领域/发表时间/链接等）渲染为标题下方的一列简洁两列表格；
 3. 在首页（index.md）的 <!-- INDEX-BEGIN/END --> 占位处自动生成笔记索引表格。
 """
 
@@ -32,23 +32,26 @@ def _render_value(key, value, meta):
     return _escape(value)
 
 
-def _inject_meta_bar(markdown, page):
-    """把 front matter 元信息作为胶囊条注入到第一个 H1 之后。"""
-    items = []
+def _inject_meta_table(markdown, page):
+    """把 front matter 元信息作为一列两列表格注入到第一个 H1 之后。"""
+    rows = []
     for key in META_KEYS:
         value = page.meta.get(key)
         if value in (None, ""):
             continue
-        items.append(
-            f'<span class="pm-item"><span class="pm-key">{_escape(key)}</span>'
-            f"{_render_value(key, value, page.meta)}</span>"
+        rows.append(
+            f"<tr><th>{_escape(key)}</th><td>{_render_value(key, value, page.meta)}</td></tr>"
         )
-    if not items:
+    if not rows:
         return markdown
-    info = '<div class="paper-meta">' + "".join(items) + "</div>"
+    table = (
+        '<table class="paper-meta-table">'
+        + "".join(rows)
+        + "</table>"
+    )
     m = re.search(r"^#\s+.+$", markdown, re.MULTILINE)
     if m:
-        markdown = markdown[: m.end()] + "\n\n" + info + "\n\n" + markdown[m.end():]
+        markdown = markdown[: m.end()] + "\n\n" + table + "\n\n" + markdown[m.end():]
     return markdown
 
 
@@ -100,8 +103,8 @@ def on_page_markdown(markdown, page, config, files):
         if m:
             page.title = m.group(1).strip()
 
-    # 2) 元信息条
-    markdown = _inject_meta_bar(markdown, page)
+    # 2) 元信息表
+    markdown = _inject_meta_table(markdown, page)
 
     # 3) 首页索引表格
     if page.file.name == "index":

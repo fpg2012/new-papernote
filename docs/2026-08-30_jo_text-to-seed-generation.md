@@ -1,12 +1,12 @@
 ---
 arXiv分类: "cs.CV"
-领域: 图像分割 / 开放词汇语义分割（Open-Vocabulary Semantic Segmentation）
-发表时间: 2026-08-27 (arXiv v1；期刊版 Knowledge-Based Systems, DOI 10.1016/j.knosys.2026.116698)
-读文章时间: 2026-08-30
-标题: Text-to-seed generation: Training-free open-vocabulary seeded semantic segmentation via re-purposing diffusion as text-guided seed generator
-链接: https://arxiv.org/abs/2608.26624
-Zotero: 已入库
-页码说明: 页码为 PDF 印刷页码
+领域: "图像分割 / 开放词汇语义分割（Open-Vocabulary Semantic Segmentation）"
+发表时间: "2026-08-27 (arXiv v1；期刊版 Knowledge-Based Systems, DOI 10.1016/j.knosys.2026.116698)"
+读文章时间: "2026-08-30"
+标题: "Text-to-seed generation: Training-free open-vocabulary seeded semantic segmentation via re-purposing diffusion as text-guided seed generator"
+链接: "https://arxiv.org/abs/2608.26624"
+Zotero: "已入库"
+页码说明: "页码为 PDF 印刷页码"
 ---
 
 # Text-to-Seed (T2S): 免训练开放词汇语义分割
